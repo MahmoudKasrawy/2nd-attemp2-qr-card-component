@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.home{
+    background-color: rgb(189, 219, 243);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    background-color: aliceblue;
+    width: 300px;
+    height: 450px;
+    border-radius: 0.8rem;
+}
+
+.card{
+ padding:1.5rem;
+ 
+}
+.card img{
+border-radius: 0.5rem;
+    width: 250px;
+}
+.card-info h3{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 1.2rem;
+}
+.card-info p{
+    margin-top: 1.2rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.9em;
+    color:gray ;
+
+}
